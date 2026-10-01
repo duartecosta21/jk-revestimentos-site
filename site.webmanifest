@@ -1,0 +1,13 @@
+{
+  "name": "JK Revestimentos",
+  "short_name": "JK",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#E9ECEB",
+  "theme_color": "#E9ECEB",
+  "icons": [
+    { "src": "/jk-revestimentos-site/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/jk-revestimentos-site/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/jk-revestimentos-site/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
