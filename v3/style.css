@@ -37,8 +37,8 @@ html.js .hdr.solid{background:rgba(251,249,246,.94);backdrop-filter:blur(10px);-
 .hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(24,18,16,.5) 0,rgba(24,18,16,0) 24%),linear-gradient(0deg,rgba(24,18,16,.78) 0,rgba(24,18,16,.42) 38%,rgba(24,18,16,0) 70%);z-index:1}
 .hero-in{position:absolute;z-index:3;left:0;right:0;bottom:0;padding:0 var(--gut) clamp(44px,9vh,96px);max-width:calc(var(--max) + 2*var(--gut))}
-.hero h1{color:#fff;font-size:clamp(2.05rem,4.15vw,3.75rem);max-width:15em;letter-spacing:-.005em}
-.hero p.lead{margin-top:18px;max-width:34em;font-size:clamp(1rem,1.35vw,1.2rem);color:rgba(255,255,255,.9);line-height:1.55}
+.hero h1{color:#fff;font-size:clamp(1.8rem,3.2vw,2.9rem);max-width:17em;letter-spacing:-.005em;line-height:1.14}
+.hero p.lead{margin-top:16px;max-width:34em;font-size:clamp(.95rem,1.15vw,1.06rem);color:rgba(255,255,255,.9);line-height:1.55}
 .hero .cta{margin-top:30px}
 .planks{position:absolute;inset:0;z-index:2;display:flex;pointer-events:none}
 .planks span{flex:var(--w) 1 0;background:var(--graphite);transform-origin:50% 100%;animation:plank 1.05s var(--ease) var(--d) both}
@@ -273,6 +273,7 @@ td:first-child{color:var(--graphite);font-weight:400;white-space:nowrap}
 .plist button:hover{padding-left:14px}
 .pnl{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(20px,3vw,44px);align-items:start;animation:fade .6s ease both}
 .pnl[hidden]{display:none}
+.pnl.one{grid-template-columns:1fr;max-width:34em}
 @keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 .pnl .ph{aspect-ratio:1/1;background:var(--sand);overflow:hidden}
 .pnl .ph img{width:100%;height:100%;object-fit:cover}
